@@ -57,7 +57,7 @@ public class WordLLExamples {
 	/* Read input file 'words' that contains about 3000 mystery words */
 	public static void readMysteryWords(String filename) {
 		try {
-			File myObj = new File("C:\\Users\\orenj\\OneDrive\\CS_1027\\Assignments\\Assignment2\\src\\words");
+			File myObj = new File("");	//FIXME: User should manually enter in a file path
 			Scanner myReader = new Scanner(myObj);
 			int i = 0;
 			while (myReader.hasNextLine()) {
